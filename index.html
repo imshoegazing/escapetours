@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Escape Tours</title>
+  </head>
+  <body>
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#information">About</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+    <section id="home">
+      <nav id="nav-phone">
+        <a class="nav-link" href="#information">About</a>
+        <a class="nav-link" href="#testimonials">Reviews</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#prices">Prices</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="home-container">
+        <h1>Welcome to Escape Tours!</h1>
+        <p>Are you ready for the most exciting caribbean adventure ever?!</p>
+      </div>
+    </section>
+
+    <section id="information">
+      <div class="information-container">
+        <h2>Tour Description</h2>
+        <div class="information-container-details">
+          <div class="details-right"></div>
+          <div class="details-left">
+            <p>- You will visit 5 capitals in 5 different countries</p>
+            <p>- Numerous amount of islands and beaches</p>
+            <p>- Most beautiful places in Carrebean Sea</p>
+            <p>- Packages start at 2750$ per person</p>
+            <p>- Group and private tours available</p>
+            <p>- Minimum amount of people: 2</p>
+            <p>- Starting point: Miami, FL</p>
+            <p>- Available any time</p>
+            <a href="#"><button class="button">Find out more</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="description">
+      <h1>Trip route</h1>
+      <p>
+        We will take you to: Nassau, Bahamas - Havana, Cuba - Playa del Carmen,
+        Mexico - Kingston, Jamaica - Santo Domingo, Dominican Republic
+      </p>
+      <video class="bg-video" autoplay muted loop>
+        <source src="img/video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section id="testimonials">
+      <h2>Our Clients</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://randomuser.me/api/portraits/men/52.jpg"
+                alt=""
+              />
+              <p>Tom Waits</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>One of the best tours I ever had in my life!</p>
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://randomuser.me/api/portraits/men/42.jpg"
+                alt=""
+              />
+              <p>Trent Reznor</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            I could never imagine that I will see so many beautiful different
+            places in one week!
+          </p>
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://randomuser.me/api/portraits/women/24.jpg"
+                alt=""
+              />
+              <p>Amelia Watson</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            Bought this trip as a honey moon present for my friends! They said
+            it was the best time of their life!
+          </p>
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://randomuser.me/api/portraits/women/51.jpg"
+                alt=""
+              />
+              <p>Stacy Wong</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>These guys know what they are doing! What a perfect service!</p>
+        </div>
+      </div>
+      <a href="#"><button class="button">Read more reviews</button></a>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <ul class="gallery-showcase clearfix">
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/1.jpg" alt="Beach" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/2.jpg" alt="Havana" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/3.jpg" alt="Favela" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/4.jpg" alt="Sea" />
+          </figure>
+        </li>
+
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/5.jpg" alt="Street" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/6.jpg" alt="Panorama" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/7.jpg" alt="Mexico" />
+          </figure>
+        </li>
+        <li>
+          <figure class="gallery-photo">
+            <img src="img/8.jpg" alt="Paradise" />
+          </figure>
+        </li>
+      </ul>
+      <a href="#"><button class="button">See more pictures</button></a>
+    </section>
+
+    <section id="prices">
+      <h2>Prices</h2>
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Small Group</li>
+          <li class="grey">2750$ per person</li>
+          <li>3 Star Hotels</li>
+          <li>Tours are not included</li>
+          <li>No meals</li>
+          <li>No drinks</li>
+          <li class="grey">
+            <a href="#"><button class="button">Book now</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: #04aa6d">Small Group</li>
+          <li class="grey">3250$ per person</li>
+          <li>4 Star Hotels</li>
+          <li>Some tours included</li>
+          <li>No meals</li>
+          <li>Unlimited drinks</li>
+          <li class="grey">
+            <a href="#"><button class="button">Book now</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Private Tour</li>
+          <li class="grey">4995$ per person</li>
+          <li>5 Star Hotels</li>
+          <li>Tour guides included</li>
+          <li>Unlimited snacks</li>
+          <li>Unlimited drinks</li>
+          <li class="grey">
+            <a href="#"><button class="button">Book now</button></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-greeting">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you!</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-picture"></div>
+        <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>E-Mail</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Phone Number</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="contact-button">
+            <a href="#"><button class="button">Submit</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div id="contacts" class="contacts">
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" target="_blank"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <p>Escape Tours &copy; All rights reserved</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
